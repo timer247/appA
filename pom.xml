@@ -8,7 +8,6 @@
 	<packaging>mule-application</packaging>
 
 	<name>world-demo-api</name>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -36,7 +35,6 @@
 				      <password>${password}</password>
 				      <applicationName>${cloudhub.application.name}</applicationName>
 				      <environment>${environment}</environment>
-				      <region>${region}</region>
 				      <workers>${workers}</workers>
 				      <workerType>${workerType}</workerType>
 				      <properties>
